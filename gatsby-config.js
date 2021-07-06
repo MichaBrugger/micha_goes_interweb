@@ -8,7 +8,7 @@ const postCSSMixins = require("postcss-mixins");
 module.exports = {
   pathPrefix: "/micha_goes_interweb",
   siteMetadata: {
-    title: `Hello Friend`,
+    title: `Code Library`,
     description: `A simple starter for Gatsby. That's it.`,
     copyrights: "",
     author: `@panr`,
