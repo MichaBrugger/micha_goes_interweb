@@ -1,5 +1,5 @@
 ---
-title: "bash"
+title: "Bash"
 date: "2021-07-07"
 author: ""
 path: "/bash"
