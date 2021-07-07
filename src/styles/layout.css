@@ -267,7 +267,7 @@ textarea {
   justify-content: center;
   margin: 50px auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
 
   @media (--phone) {
     margin-top: 0;
