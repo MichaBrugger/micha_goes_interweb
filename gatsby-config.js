@@ -16,22 +16,34 @@ module.exports = {
       src: "",
       alt: "",
     },
-    logoText: "Code Library",
+    logoText: "code library",
     defaultTheme: "dark",
     postsPerPage: 5,
     showMenuItems: 1,
-    menuMoreText: "Languages",
+    menuMoreText: "languages",
     mainMenu: [
       {
-        title: "About",
+        title: "about",
         path: "/about",
       },
       {
-        title: "JavaScript",
+        title: "js",
         path: "/js",
       },
       {
-        title: "Bash",
+        title: "css",
+        path: "/css",
+      },
+      {
+        title: "html",
+        path: "/html",
+      },
+      {
+        title: "vim",
+        path: "/vim",
+      },
+      {
+        title: "bash",
         path: "/bash",
       },
     ],
@@ -107,6 +119,16 @@ module.exports = {
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
+            },
+          },
+          {
+            resolve: "gatsby-remark-emoji", // <-- this adds emoji
+            options: {
+              // default emojiConversion --> shortnameToUnicode
+              emojiConversion: "shortnameToUnicode",
+              // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
+              // e.g. ;) --> 😉
+              ascii: false,
             },
           },
         ],

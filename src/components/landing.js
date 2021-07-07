@@ -2,14 +2,14 @@ import React from "react";
 import "../styles/layout.css";
 
 const Landing = props => {
-  const i = 0;
-  const txt = "hello";
-  const speed = 60;
-
   return (
     <div className="content">
-      <h1>The world's lamest landing page.</h1>
-      <p>Oh, hi there.. welcome!</p>
+      <h1>
+        t<span class="highlight">h</span>e world's lam
+        <span class="highlight">e</span>st&nbsp;
+        <span class="highlight">l</span>
+        anding&nbsp;<span class="highlight">p</span>age.
+      </h1>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+@import "./variables.css";
+
 .header {
   background: #fafafa;
   display: flex;
@@ -43,10 +45,14 @@
   display: inline-block;
   width: 10px;
   height: 1rem;
-  background: #2471a3;
+  background: var(--light-highlight);
   margin-left: 5px;
   border-radius: 1px;
   animation: cursor 1s infinite;
+
+  :global .dark-theme :local & {
+    background: var(--dark-highlight);
+  }
 }
 
 .text,
