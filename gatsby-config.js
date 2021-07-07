@@ -8,8 +8,8 @@ const postCSSMixins = require("postcss-mixins");
 module.exports = {
   pathPrefix: "/micha_goes_interweb",
   siteMetadata: {
-    title: `Code Library`,
-    description: `My little Code Library.`,
+    title: `code library`,
+    description: `my little code library.`,
     copyrights: "",
     author: `@michabrugger`,
     logo: {
@@ -137,8 +137,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
+        name: `micha_goes_interweb`,
+        short_name: `code_library`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
