@@ -56,6 +56,24 @@ h6 {
   color: var(--dark-highlight);
 }
 
+div > h1,
+div > h2,
+div > h3,
+div > h4,
+div > h5,
+div > h6 {
+  color: var(--light-highlight);
+}
+
+.dark-theme div > h1,
+.dark-theme div > h2,
+.dark-theme div > h3,
+.dark-theme div > h4,
+.dark-theme div > h5,
+.dark-theme div > h6 {
+  color: var(--dark-highlight);
+}
+
 h1 {
   font-size: 2.625rem;
 }
